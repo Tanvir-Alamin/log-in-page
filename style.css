@@ -46,3 +46,33 @@ button{
     padding: 20px;
     border-radius: 15px;
 }
+
+/* For phones/smaller screens */
+@media (max-width: 600px) {
+  div {
+    width: 90%;  /* wider on small screens but fits */
+    height: auto; /* adjust height automatically */
+    padding: 20px;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+  }
+  
+  .cc02 {
+    width: 100%;  /* inputs fill container */
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    padding: 15px;
+  }
+
+  #id03, #id04 {
+    position: static;
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+}
